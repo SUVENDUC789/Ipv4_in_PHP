@@ -1,23 +1,4 @@
-<?php
 
-if($_SERVER['REQUEST_METHOD']=='GET')
-{
-    include 'dbConnect.php';
-
-    $compName = gethostbyaddr($_SERVER["REMOTE_ADDR"]);
-    $ip = $_SERVER["REMOTE_ADDR"];
-
-    $sql="INSERT INTO `onlyvisit` (`sl`, `comp`, `ip`, `date_and_time`) VALUES (NULL, '$compName', '$ip', current_timestamp())";
-    $result=mysqli_query($conn,$sql);
-
-    if(!$result)
-    {
-        echo "<h1>Not insert </h1>";
-    }
-
-}
-
-?>
     
     <!-- As a link -->
     <nav class="navbar navbar-dark bg-dark">
