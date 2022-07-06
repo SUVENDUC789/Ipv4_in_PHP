@@ -1,2 +1,2 @@
 # Ipv4_in_PHP
-Find Net  and host id , subnet Musk , Class of IPv 4 , IPv 4 to Binary conversion 
+//If you enter any IPv4 address, you will get the net and host ID of that IPv4, subnet mask, class of IPv4, binary form of IPv4.
